@@ -1,7 +1,4 @@
 function calculate(str) {
-
-//check
-
   //
   const forward = dots => dots.split('').length;
   const backward = num => '.'.repeat(num);
@@ -22,6 +19,7 @@ function calculate(str) {
 
   return backward(calc);
 };
+
 console.log('res:',calculate("..... + ..............."));
 console.log('res:',calculate("..... - ..."));
 console.log('res:',calculate("..... - ."));
